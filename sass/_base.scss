@@ -47,8 +47,9 @@ body {
   //grid-template-columns: 8rem 1fr repeat(8, minmax(min-content, 14rem)) 1fr;
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end] ) [center-end] minmax(6rem, 1fr) [full-end];
 
-  & > * {
-    padding: 40px;
-    font-size: 3rem;
-  }
+  // just to test and to see each child
+  //& > * {
+  //  padding: 40px;
+  //  font-size: 3rem;
+  //}
 }
