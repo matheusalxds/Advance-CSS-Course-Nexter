@@ -194,7 +194,8 @@ body {
     padding: 1.25rem;
     background-color: #101d2c;
     color: #ffffff;
-    font-weight: 400; }
+    font-weight: 400;
+    cursor: default; }
   .home__location, .home__rooms {
     margin-top: 2.5rem; }
   .home__location, .home__rooms, .home__area, .home__price {
